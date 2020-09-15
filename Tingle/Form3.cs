@@ -12,9 +12,24 @@ namespace Tingle
 {
     public partial class Form3 : Form
     {
+
+        string pastaimg = "";
+        Image img_Voltar;
+        Image img_EVoltar;
+
         public Form3()
         {
             InitializeComponent();
+
+
+            pastaimg = Application.StartupPath + @"\";
+
+            //Imagens
+            img_Voltar = Image.FromFile(pastaimg + "branco.png");
+            img_EVoltar = Image.FromFile(pastaimg + "azul.png");
+
+
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -26,5 +41,22 @@ namespace Tingle
         {
             this.Close();
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void pictureBox2_MouseEnter(object sender, EventArgs e)
+        {
+            pictureBox2.BackgroundImage = img_EVoltar;
+        }
+
+        private void pictureBox2_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox2.BackgroundImage = img_Voltar;
+        }
+
     }
+
 }

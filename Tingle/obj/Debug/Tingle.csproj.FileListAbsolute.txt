@@ -10,3 +10,4 @@ C:\Users\Vitor\source\repos\Tingle\Tingle\obj\Debug\Tingle.exe
 C:\Users\Vitor\source\repos\Tingle\Tingle\obj\Debug\Tingle.pdb
 C:\Users\Vitor\source\repos\Tingle\Tingle\obj\Debug\Tingle.Form2.resources
 C:\Users\Vitor\source\repos\Tingle\Tingle\obj\Debug\Tingle.Form3.resources
+C:\Users\Vitor\source\repos\Tingle\Tingle\obj\Debug\Tingle.Form4.resources

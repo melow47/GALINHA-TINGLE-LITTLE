@@ -86,6 +86,8 @@ namespace Tingle
         private void button7_Click(object sender, EventArgs e)
         {
             hideSubMenu();
+
+            openChildForm(new Form4());
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -134,6 +136,11 @@ namespace Tingle
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panelMediaSubmenu_Paint(object sender, PaintEventArgs e)
         {
 
         }
