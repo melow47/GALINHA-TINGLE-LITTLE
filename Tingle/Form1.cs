@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Tingle
 {
-    public partial class Form1 : Form
+    public partial class Inicial : Form
     {
-        public Form1()
+        public Inicial()
         {
             InitializeComponent();
             custumizeDesing();
@@ -52,7 +52,7 @@ namespace Tingle
         {
             hideSubMenu();
 
-            openChildForm(new Form2());
+            openChildForm(new NFe());
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -60,7 +60,7 @@ namespace Tingle
             
             hideSubMenu();
 
-            openChildForm(new Form3());
+            openChildForm(new Histórico());
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -81,13 +81,16 @@ namespace Tingle
         private void button8_Click(object sender, EventArgs e)
         {
             hideSubMenu();
+
+            var newForm = new Login();
+            newForm.Show();
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
             hideSubMenu();
 
-            openChildForm(new Form4());
+            openChildForm(new Perfil());
         }
 
         private void button6_Click(object sender, EventArgs e)

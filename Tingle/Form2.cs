@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Tingle
 {
-    public partial class Form2 : Form
+    public partial class NFe : Form
     {
-        public Form2()
+        public NFe()
         {
             InitializeComponent();
         }

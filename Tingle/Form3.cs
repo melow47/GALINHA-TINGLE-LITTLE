@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace Tingle
 {
-    public partial class Form3 : Form
+    public partial class Histórico : Form
     {
 
         string pastaimg = "";
         Image img_Voltar;
         Image img_EVoltar;
 
-        public Form3()
+        public Histórico()
         {
             InitializeComponent();
 
